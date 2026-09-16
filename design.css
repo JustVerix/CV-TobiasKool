@@ -1,0 +1,160 @@
+:root{
+--color-background: #000000;
+--color-green: #274b0e;
+--color-light-green: #3e6b1a;
+--color-black: #000000;
+--color-text: #6ad003;
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'mono', sans-serif;
+}
+
+body{
+	background-color: var(--color-background);
+	color: var(--color-text);
+	text-align: center;
+	border: 10px solid var(--color-green);
+    min-height: 100vh;          
+    display: flex;
+    flex-direction: column;     
+}
+
+
+
+header{
+	background-color: var(--color-background);
+	color: var(--color-text);
+	padding: 1rem;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 1.5rem;
+	flex-wrap: wrap;
+}
+
+
+header img{
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	margin-bottom: 1rem;
+	border: 5px solid var(--color-black);
+}
+
+
+header p{
+	margin-left: auto;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+nav{
+	background-color: var(--color-green);
+	padding: 0.5rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 0.5rem;
+}
+
+nav a{
+	color: var(--color-text);
+	text-decoration: none;
+}
+
+main{
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex: 1; 
+}
+
+footer{
+	background-color: var(--color-black);
+	color: var(--color-text);
+	padding: 1rem;
+	text-align: center;
+}
+
+a{
+	color: var(--color-text);
+}
+
+
+.content-image{
+	max-width: 650px;
+	max-height: 650px;
+	border-radius: 4px;
+	border: 5px solid var(--color-green);
+}
+
+.content-image:hover{
+	transform: scale(1.05);
+	transition: transform 0.3s ease-in-out;
+}
+
+
+.nav-buttons{
+	background-color: var(--color-light-green);
+	padding: 0.5rem 1rem;
+	border-radius: 4px;
+	
+}
+
+.nav-buttons:hover{
+	color: var(--color-text);
+	transform: scale(1.05);
+	transition: transform 0.3s ease-in-out;
+}
+
+.nav-buttons:focus{
+	transform: scale(1.05);
+	transition: transform 0.3s ease-in-out;
+}
+
+.nav-buttons.active{
+	background-color: var(--color-background);
+	color: var(--color-text);
+}
+
+.section-content{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 3.5rem;
+}
+
+.text-container{
+	text-align: left;
+	max-width: 600px;
+}
+
+.image-container{
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.section-text{
+	width: 100%;
+	border: 5px solid var(--color-green);
+	padding: 30px;
+	margin: 20px 0;
+	border-radius: 10px;
+	color: var(--color-text);
+}
+
+.section-text::before{
+	content: '~ ) ';
+	font-weight: bold;
+}
