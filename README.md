@@ -62,4 +62,4 @@ De vormgeving is een donkergroene, terminalachtige stijl:
 
 ## Contact
 
-Tobias Kool — [tobiasbooms@gmail.com](mailto:tobiasbooms@gmail.com) — (+31) 06 83989923
+Tobias Kool — [ItsTobiasKool@gmail.com](mailto:ItsTobiasKool@gmail.com) — (+31) 06 83989923
