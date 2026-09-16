@@ -22,6 +22,7 @@ CV-TobiasKool/
 ├── README.md               ← Dit document
 ├── aantekening.md          ← Verouderd testbestand, kan verwijderd worden
 ├── images/                 ← Afbeeldingen (o.a. profielfoto)
+├── fonts/                  ← Zelf-gehoste VT323 terminal-font
 ├── cv/                     ← Downloadbare cv (PDF en Word)
 └── html/                   ← 6 cv-sectiepagina's
     ├── werkervaring.html   ← Werkervaring
