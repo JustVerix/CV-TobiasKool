@@ -149,9 +149,10 @@ a{
 	width: 100%;
 	border: 5px solid var(--color-green);
 	padding: 30px;
-	margin: 20px 0;
+	margin: 25px 0;
 	border-radius: 10px;
 	color: var(--color-text);
+	line-height: 1.6;
 }
 
 .section-text::before{

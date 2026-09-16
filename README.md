@@ -1,6 +1,6 @@
-# Tobias Booms — CV
+# Tobias Kool — CV
 
-Online cv van Tobias Booms, gebouwd met HTML en CSS (zonder JavaScript). De site heeft een donkergroene, terminalachtige uitstraling en is opgebouwd uit zeven pagina's.
+Online cv van Tobias Kool, gebouwd met HTML en CSS (zonder JavaScript). De site heeft een donkergroene, terminalachtige uitstraling en is opgebouwd uit zeven pagina's.
 
 ---
 
@@ -16,7 +16,7 @@ Online cv van Tobias Booms, gebouwd met HTML en CSS (zonder JavaScript). De site
 ## Projectstructuur
 
 ```
-TobiasKool_CV.github.io/
+CV-TobiasKool/
 ├── index.html              ← Profiel (homepage)
 ├── design.css              ← Eén gedeeld stylesheet voor alle pagina's
 ├── README.md               ← Dit document
@@ -35,7 +35,7 @@ TobiasKool_CV.github.io/
 
 De site telt 7 pagina's: de homepage (profiel) plus zes sectiepagina's. Elke pagina heeft dezelfde opbouw:
 
-- **Header** — profielfoto (rond), naam (`Tobias Booms`) en een per-pagina tekstregel. De tekstregel staat rechtsboven in de header (`margin-left: auto` in CSS).
+- **Header** — profielfoto (rond), naam (`Tobias Kool`) en een per-pagina tekstregel. De tekstregel staat rechtsboven in de header (`margin-left: auto` in CSS).
 - **Navigatie** — identiek op alle pagina's. Elke link heeft de klasse `nav-buttons`; de huidige pagina wordt gemarkeerd met `class="nav-buttons active"`.
 - **Sectie** — cv-inhoud in tekstblokken (`.section-text`).
 - **Footer** — contactgegevens.
@@ -60,4 +60,4 @@ De vormgeving is een donkergroene, terminalachtige stijl:
 
 ## Contact
 
-Tobias Booms — [tobiasbooms@gmail.com](mailto:tobiasbooms@gmail.com) — (+31) 06 83989923
+Tobias Kool — [tobiasbooms@gmail.com](mailto:tobiasbooms@gmail.com) — (+31) 06 83989923
